@@ -9,7 +9,7 @@ export const fetchGreeting = createAsyncThunk(
       return 'fails';
     }
     return data;
-  }
+  },
 );
 
 const initialState = {

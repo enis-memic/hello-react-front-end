@@ -8,7 +8,7 @@ import {
 import Greeting from './Greeting';
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route index element={<Greeting />} />)
+  createRoutesFromElements(<Route index element={<Greeting />} />),
 );
 
 function App() {
